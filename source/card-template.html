@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Workout card renderer</title>
+    <link rel="stylesheet" href="card.css">
+  </head>
+  <body>
+    <main>
+      <section id="workout-card" aria-label="Rendered workout card">
+        <header class="card-header">
+          <div>
+            <p class="eyebrow" id="card-day"></p>
+            <h1 id="card-title"></h1>
+          </div>
+          <p class="duration" id="card-duration"></p>
+        </header>
+        <p class="warning" id="card-warning"></p>
+        <div class="hero">
+          <img id="hero-art" alt="">
+          <p class="hero-label" id="hero-label"></p>
+        </div>
+        <ul class="timing" id="card-timing"></ul>
+        <div class="sections" id="card-sections"></div>
+        <p class="rest" id="card-rest"></p>
+        <footer class="card-footer">
+          <p class="progression" id="card-progression"></p>
+          <p class="safety" id="card-safety"></p>
+        </footer>
+      </section>
+    </main>
+    <script type="module">
+      const params = new URLSearchParams(location.search);
+      const slug = params.get('slug');
+      const data = await fetch('workouts.json').then((response) => response.json());
+      const workout = data.workouts.find((item) => item.slug === slug);
+      if (!workout) throw new Error(`Unknown workout: ${slug}`);
+      const text = (selector, value) => { document.querySelector(selector).textContent = value; };
+      document.querySelector('#workout-card').dataset.slug = slug;
+      text('#card-day', workout.day);
+      text('#card-title', workout.title);
+      text('#card-duration', workout.duration);
+      text('#card-warning', workout.warning);
+      text('#hero-label', workout.heroLabel);
+      const image = document.querySelector('#hero-art');
+      image.src = `artwork/${workout.artwork}`;
+      image.alt = workout.alt;
+      for (const item of workout.timing) {
+        const listItem = document.createElement('li');
+        listItem.textContent = item;
+        document.querySelector('#card-timing').append(listItem);
+      }
+      for (const item of workout.cardSections) {
+        const section = document.createElement('section');
+        section.className = 'exercise-block';
+        const heading = document.createElement('h2');
+        heading.textContent = item.title;
+        const primary = document.createElement('p');
+        primary.className = 'primary';
+        primary.textContent = item.primary;
+        const alternative = document.createElement('p');
+        alternative.className = 'alternative';
+        alternative.textContent = item.alternative;
+        section.append(heading, primary, alternative);
+        document.querySelector('#card-sections').append(section);
+      }
+      text('#card-rest', workout.rest);
+      text('#card-progression', workout.progression);
+      text('#card-safety', workout.cardSafety || data.meta.safetyShort);
+      await document.fonts.ready;
+      await image.decode();
+      document.documentElement.dataset.ready = 'true';
+    </script>
+  </body>
+</html>
+

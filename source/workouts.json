@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "version": 1,
+    "safetyShort": "Stop if symptoms worsen, radiate, or technique deteriorates. Follow physio guidance and read the full safety notes.",
+    "safetyFull": "Stop and arrange clinical assessment for new, changing, recurrent, or radiating symptoms before progressing loaded hinges, unilateral leg work, or plyometrics. Exercises should not cause symptoms that remain meaningfully worse the following day. Skill work, jumps, and loaded strength all stop before technique deteriorates. Seek emergency assessment for saddle numbness or bowel/bladder change. Seek urgent clinical assessment for new or progressive leg weakness."
+  },
+  "workouts": [
+    {
+      "slug": "morning-mobility",
+      "title": "MORNING MOBILITY",
+      "pageTitle": "Daily Morning Mobility",
+      "day": "DAILY · GENTLE PREPARATION",
+      "duration": "8–10 MIN",
+      "warning": "COMFORTABLE RANGE · NOT A FLEXIBILITY TEST",
+      "heroLabel": "BREATHE · MOVE · PREPARE",
+      "artwork": "morning-mobility-artwork.png",
+      "alt": "Editorial illustration of an adult athlete performing cat-camel, a half-kneeling hip-flexor stretch, and a supported deep squat",
+      "timing": ["BREATHE SLOWLY", "CONTROL THE RANGE", "MOVE BOTH SIDES", "FINISH COMFORTABLE"],
+      "cardSections": [
+        {"title": "1 · BREATHE + SPINE", "primary": "90/90 breathing · 5 breaths\nCat-camel · 6 reps", "alternative": "Small, comfortable cat-camel range"},
+        {"title": "2 · HIPS + THORACIC", "primary": "Hip-flexor stretch · 30 sec/side\nOpen book · 5/side", "alternative": "Glute squeeze in the half-kneeling stretch"},
+        {"title": "3 · ANKLES + SQUAT", "primary": "Ankle rocks · 8/side\nSupported squat · 30–45 sec", "alternative": "Use stable support and relaxed breathing"},
+        {"title": "4 · GLUTES + SHOULDERS", "primary": "Glute bridge · 8 reps\nWall slides · 8–12", "alternative": "Bridge holds 2 sec · ALT band pull-aparts"}
+      ],
+      "rest": "PERFORM GENTLY · KEEP EVERY MOVEMENT COMFORTABLE",
+      "progression": "Consistency beats intensity. This sequence prepares the day; it is not a flexibility test.",
+      "cardSafety": "Back-sensitive morning: replace only deep squat + bridge with comfortable walking and physio-approved movements. Stop if symptoms worsen, radiate, or technique deteriorates. Follow physio guidance and read the full safety notes.",
+      "intro": "Perform this daily sequence gently as preparation. Keep the listed order and use a small, comfortable range.",
+      "detailSections": [
+        {"title": "Complete sequence", "items": ["Crocodile or 90/90 breathing — 5 slow breaths.", "Cat-camel — 6 controlled repetitions in a small, comfortable range.", "Half-kneeling hip-flexor stretch with glute squeeze — 30 seconds per side.", "Open-book thoracic rotation — 5 repetitions per side.", "Ankle rocks over toes — 8 repetitions per side.", "Deep squat hold with supported breathing — 30–45 seconds.", "Glute bridge — 8 controlled repetitions with a two-second hold.", "Scapular wall slides or band pull-aparts — 8–12 repetitions."]},
+        {"title": "Back-sensitive morning", "items": ["Replace only the deep squat and glute bridge with comfortable walking plus movements previously approved by the physiotherapist.", "Retain the other comfortable mobility movements; stop or reduce range if symptoms worsen."]}
+      ]
+    },
+    {
+      "slug": "full-body-a",
+      "title": "FULL-BODY A",
+      "pageTitle": "Full-body A",
+      "day": "MONDAY",
+      "duration": "36–42 MIN",
+      "warning": "NO PLYOMETRICS — BADMINTON TUESDAY",
+      "heroLabel": "FUNCTIONAL STRENGTH · CONTROL · RANGE · QUALITY",
+      "artwork": "full-body-a-artwork.png",
+      "alt": "Editorial illustration of an adult athlete demonstrating a weighted backpack push-up, rear-foot-elevated split squat, and single-leg Romanian deadlift",
+      "timing": ["PREP + SETUP · 5 MIN", "FRONT LEVER · 7 MIN", "STRENGTH · 20–22 MIN", "FINISHER · 3–5 MIN"],
+      "cardSections": [
+        {"title": "1 · FRONT LEVER", "primary": "Tuck hold\n3 × 6–12 sec", "alternative": "INDOOR · Hollow hold 2 × 15–25 sec + band pulldown 2 × 8–12 · RATED ANCHOR"},
+        {"title": "2 · PUSH + PULL · 3 ROUNDS", "primary": "Backpack push-up · 6–12\nPull-up · 4–8", "alternative": "ALT · Rings/parallettes; indoor strong band row · 10–15"},
+        {"title": "3 · LEGS + HINGE · 2 ROUNDS", "primary": "Split squat · 6–10/side\nSingle-leg RDL · 6–10/side", "alternative": "ALT · Reverse lunge; dumbbell or backpack RDL"},
+        {"title": "4 · TRUNK + SOLEUS · 1–2 ROUNDS", "primary": "Side plank · 20–35 sec/side\nBent-knee calf · 10–15/side", "alternative": "No hip dips initially · As time allows"}
+      ],
+      "rest": "REST 45–75 SEC AFTER EACH STRENGTH PAIR",
+      "progression": "Keep 2–3 reps in reserve. Reach the top of the range twice, then add load or use a harder variation.",
+      "cardSafety": "Stop if symptoms worsen, radiate, or technique deteriorates. Follow physio guidance and read the full safety notes.",
+      "intro": "Monday's formal strength session combines front-lever practice, upper-body strength, and moderate lower-body work. No plyometrics because Tuesday badminton follows.",
+      "detailSections": [
+        {"title": "Preparation and skill — 12 minutes", "items": ["Daily mobility shortened to 5 minutes.", "Front lever block — 7 minutes.", "Outdoor: scapular pull-ups 1 × 5–8; tuck front-lever hold 3 × 6–12 seconds with 45–60 seconds rest.", "Indoor without a rated bar: hollow-body hold or dead-bug press 2 × 15–25 seconds; banded straight-arm pulldown from a rated anchor 2 × 8–12; optional seated band row 1 × 10–15.", "Indoor prerequisite work is not equivalent front-lever exposure."]},
+        {"title": "Strength superset 1 — 3 rounds", "items": ["Weighted backpack, ring, or deep-parallette push-up — 6–12 repetitions.", "Strict pull-up or chin-up — 4–8 repetitions; indoor alternative: strong band row — 10–15 repetitions.", "Rest 45–75 seconds after both exercises."]},
+        {"title": "Strength superset 2 — 2 rounds", "items": ["Rear-foot-elevated split squat or reverse lunge — 6–10 repetitions per side.", "Single-leg Romanian deadlift with kettlebell, dumbbell, or backpack — 6–10 repetitions per side.", "Rest 45–75 seconds after both exercises."]},
+        {"title": "Trunk and accessory finisher", "items": ["One or two rounds as time allows.", "Side plank, initially without hip dips — 20–35 seconds per side.", "Bent-knee calf raise with soleus emphasis — 10–15 repetitions per side."]}
+      ]
+    },
+    {
+      "slug": "full-body-b",
+      "title": "FULL-BODY B",
+      "pageTitle": "Full-body B",
+      "day": "THURSDAY · OR FRIDAY AFTER WED BADMINTON",
+      "duration": "36–42 MIN",
+      "warning": "THURSDAY JUMPS ONLY WHEN ELIGIBLE · NEVER BEFORE SAME-DAY BADMINTON",
+      "heroLabel": "VERTICAL PUSH · ROW · SQUAT · HIP EXTENSION",
+      "artwork": "full-body-b-artwork.png",
+      "alt": "Editorial illustration of an adult athlete performing a pike push-up, supported one-arm row, and weighted glute bridge",
+      "timing": ["PREP · 5 MIN", "PISTOL · 7 MIN", "OPTIONAL JUMPS · 3 MIN", "STRENGTH + FINISHER"],
+      "cardSections": [
+        {"title": "1 · PISTOL + OPTIONAL JUMPS", "primary": "Pistol practice · 7 min\nOne jump drill · 3 min", "alternative": "Omit after Wed badminton or before same-day badminton"},
+        {"title": "2 · PUSH + ROW · 3 ROUNDS", "primary": "Pike push-up · 5–10\nRow · 8–12", "alternative": "ALT · Feet-elevated pike or wall HSPU progression"},
+        {"title": "3 · SQUAT + HIPS · 2 ROUNDS", "primary": "Goblet squat · 8–12\nGlute bridge · 8–15", "alternative": "ALT · Front-loaded backpack; hip thrust or walkout"},
+        {"title": "4 · TRUNK · 1–2 ROUNDS", "primary": "Pallof/dead bug · 5–8/side\nCopenhagen · 15–25 sec/side", "alternative": "Pallof press requires a RATED ANCHOR"}
+      ],
+      "rest": "REST 45–75 SEC AFTER EACH STRENGTH PAIR",
+      "progression": "Eligible one-badminton week: optional 6-minute HIIT replaces—not follows—the finisher.",
+      "cardSafety": "If Tuesday + Wednesday include badminton, move B to Friday and omit C. Never place lower-body strength immediately before badminton. Stop if symptoms worsen, radiate, or technique deteriorates. Follow physio guidance and read the full safety notes.",
+      "intro": "Use Thursday when recovered. If Tuesday and Wednesday both contain badminton, make Thursday mobility and easy skill work, move Full-body B to Friday, and omit Full-body C.",
+      "detailSections": [
+        {"title": "Preparation, pistol practice, and eligible plyometrics", "items": ["Daily mobility shortened to 5 minutes.", "Pistol-squat practice — 7 minutes.", "Thursday only, choose one: lateral bound and stick 2 × 4 per side; pogo hops 2 × 8–10; or on the following eligible session, split-step to random left/right cue 3 × 10 seconds.", "Omit after Wednesday badminton and whenever badminton occurs later that day.", "Do not perform Full-body B lower-body strength immediately before same-day badminton."]},
+        {"title": "Strength superset 1 — 3 rounds", "items": ["Pike push-up, feet-elevated pike push-up, or wall handstand-push-up progression — 5–10 repetitions.", "Ring row, cable row, one-arm kettlebell/dumbbell row, or heavy band row — 8–12 repetitions.", "Rest 45–75 seconds after both exercises."]},
+        {"title": "Strength superset 2 — 2 rounds", "items": ["Goblet squat with kettlebell/dumbbell or front-loaded backpack squat — 8–12 repetitions.", "Weighted glute bridge, floor hip thrust, or hamstring walkout — 8–15 repetitions.", "Rest 45–75 seconds after both exercises."]},
+        {"title": "Finisher and optional replacement", "items": ["One or two rounds as time allows: Pallof press from a rated anchor or dead bug with full exhale — 5–8 per side; short-lever Copenhagen plank — 15–25 seconds per side.", "In an eligible one-badminton week only, optional six-minute HIIT replaces—not follows—the finisher.", "Use 30 seconds hard / 30 seconds easy with a back-comfortable mode; omit when sleep, back, knees, or badminton recovery is suboptimal."]}
+      ]
+    },
+    {
+      "slug": "full-body-c",
+      "title": "FULL-BODY C",
+      "pageTitle": "Full-body C",
+      "day": "SATURDAY · CONDITIONAL THIRD SESSION",
+      "duration": "36–42 MIN",
+      "warning": "SATURDAY ONLY WHEN THERE IS NO WEEKEND BADMINTON",
+      "heroLabel": "THIRD SESSION · QUALITY OVER VOLUME",
+      "artwork": "full-body-c-artwork.png",
+      "alt": "Editorial illustration of an adult athlete performing a close-grip push-up, reverse lunge with a kettlebell, and controlled bird dog",
+      "timing": ["PREP · 5 MIN", "WEAKEST SKILL · 7 MIN", "NO MANDATORY JUMPS", "STRENGTH + FINISHER"],
+      "cardSections": [
+        {"title": "1 · SKILL", "primary": "Front lever or weakest skill\n7 min", "alternative": "No mandatory jumps"},
+        {"title": "2 · PUSH + PULL · 3 ROUNDS", "primary": "Dip/push-up · 5–10\nPull-up/row · 5–12", "alternative": "ALT · Cable pulldown or heavy band pulldown/row · RATED ANCHOR"},
+        {"title": "3 · LEG + CHAIN · 2 ROUNDS", "primary": "Step-up/lunge · 6–10/side\nRDL/walkout · 8–12", "alternative": "Step-up only on a verified stable surface"},
+        {"title": "4 · TRUNK · 2 ROUNDS", "primary": "Bird dog · 5/side\nShoulder tap · 6–10/side", "alternative": "3-sec bird-dog reach · Bear plank or elevated tap"}
+      ],
+      "rest": "REST 45–75 SEC AFTER EACH STRENGTH PAIR",
+      "progression": "Eligible one-badminton week: optional 6-minute HIIT replaces the trunk finisher.",
+      "cardSafety": "Keep Sunday as recovery before Monday A. Omit C after a two-badminton week or if recovery is suboptimal. Stop if symptoms worsen, radiate, or technique deteriorates. Follow physio guidance and read the full safety notes.",
+      "intro": "This third formal strength session is Saturday only when there is no weekend badminton. Sunday remains a recovery day before Monday Full-body A.",
+      "detailSections": [
+        {"title": "Preparation and skill", "items": ["Daily mobility shortened to 5 minutes.", "Front-lever or weakest-skill practice — 7 minutes.", "No mandatory jumps."]},
+        {"title": "Strength superset 1 — 3 rounds", "items": ["Ring dip progression, parallel-bar dip, close-grip push-up, or weighted floor push-up — 5–10 repetitions.", "Chin-up/pull-up, ring row, cable pulldown, or heavy band pulldown/row — 5–12 repetitions. Any band pulldown requires a rated anchor.", "Rest 45–75 seconds after both exercises."]},
+        {"title": "Strength superset 2 — 2 rounds", "items": ["Step-up on a verified stable surface or reverse lunge — 6–10 repetitions per side.", "Kettlebell Romanian deadlift, kickstand RDL, or hamstring walkout — 8–12 repetitions.", "Rest 45–75 seconds after both exercises."]},
+        {"title": "Finisher and optional replacement", "items": ["Two rounds: bird dog with three-second reach — 5 per side; bear-plank shoulder tap or elevated shoulder tap — 6–10 per side.", "In an eligible one-badminton week only, optional six-minute HIIT replaces the trunk finisher.", "Use 30 seconds hard / 30 seconds easy with a back-comfortable mode; omit when sleep, back, knees, or badminton recovery is suboptimal."]}
+      ]
+    },
+    {
+      "slug": "handstand-v-sit",
+      "title": "HANDSTAND + V-SIT",
+      "pageTitle": "Handstand + V-sit Skills",
+      "day": "TUE · WED · FRI SKILL MORNINGS",
+      "duration": "16–25 MIN",
+      "warning": "PRIMARY SKILL FIRST · SECONDARY ONLY WHEN TIME PERMITS",
+      "heroLabel": "BALANCE · COMPRESSION · CLEAN REPS",
+      "artwork": "handstand-v-sit-artwork.png",
+      "alt": "Editorial illustration of an adult athlete in a chest-to-wall handstand, an L-sit floor support, and a tuck support on stable parallettes",
+      "timing": ["MOBILITY · 6–8 MIN", "PRIMARY · 7–10 MIN", "SECONDARY · 4–6 MIN", "STOP BEFORE FATIGUE"],
+      "cardSections": [
+        {"title": "1 · WEEKLY ORDER", "primary": "Tue · Handstand + V-sit\nWed · V-sit primary", "alternative": "Fri · Front lever primary + handstand secondary"},
+        {"title": "2 · HANDSTAND", "primary": "Wall hold · 2 × 20–40 sec\nToe/heel pulls · 2 × 3–5", "alternative": "Then 3–6 quality kick-ups · Wrist prep first"},
+        {"title": "3 · V-SIT PATH", "primary": "Pike lifts · 2 × 6–10\nTuck L-sit · 3 × 8–15 sec", "alternative": "Optional leg extensions · 1–2 × 3–5/side"},
+        {"title": "4 · QUALITY GATES", "primary": "Advance after 2 clean sessions\nRegress when form fades", "alternative": "Pain-free range · No forced compression"}
+      ],
+      "rest": "GENEROUS REST · STOP BEFORE LINE, SUPPORT, OR SHOULDER POSITION DETERIORATES",
+      "progression": "Build a clean full L-sit before emphasizing V-sit height; shift to entries after consistent wall-line control.",
+      "cardSafety": "Stop if symptoms worsen, radiate, or technique deteriorates. Follow physio guidance and read the full safety notes.",
+      "intro": "Skill-only mornings use 6–8 minutes of mobility, one primary skill for 7–10 minutes, and a secondary skill for 4–6 minutes only when time permits.",
+      "detailSections": [
+        {"title": "Weekly sequence", "items": ["Tuesday: handstand primary and V-sit secondary.", "Wednesday: V-sit primary.", "Friday: front lever primary and handstand secondary."]},
+        {"title": "Handstand practice", "items": ["Wrist preparation: circles, palm pulses, and finger pulses for 60–90 seconds.", "Chest-to-wall handstand — 2 × 20–40 seconds.", "Wall toe-pulls or heel-pulls — 2 × 3–5 controlled attempts.", "Freestanding kick-ups — 3–6 quality attempts, stopping before fatigue.", "After 2 × 30 seconds chest-to-wall plus five controlled toe-pulls are clean for two sessions, shift more practice to kick-ups.", "When three freestanding holds exceed five seconds in one session, progress to controlled entries and longer holds.", "Regress to shorter wall holds if line, wrist comfort, or shoulder elevation deteriorates; use parallettes if wrists prefer neutral loading."]},
+        {"title": "V-sit pathway", "items": ["Seated pike compression lifts — 2 × 6–10 repetitions.", "Tuck L-sit or one-leg-extended L-sit on parallettes — 3 × 8–15 seconds.", "Alternating leg extensions from tuck support — 1–2 × 3–5 per side when time permits.", "After 3 × 15 seconds in tuck plus 2 × 10 clean compression lifts for two sessions, progress to one-leg extension.", "Build a 3 × 10-second full L-sit before emphasizing hip elevation toward V-sit.", "Regress when knees bend unintentionally, shoulders collapse, or back discomfort appears. Use a pain-free spinal and hip range; do not force compression through back pain."]}
+      ]
+    },
+    {
+      "slug": "front-lever",
+      "title": "FRONT LEVER",
+      "pageTitle": "Front Lever Skills",
+      "day": "MONDAY · FRIDAY · OPTIONAL SATURDAY C",
+      "duration": "7–10 MIN",
+      "warning": "ACTUAL LEVER WORK REQUIRES A STABLE RATED BAR",
+      "heroLabel": "SCAPULAR CONTROL · HOLLOW TENSION · PATIENCE",
+      "artwork": "front-lever-artwork.png",
+      "alt": "Editorial illustration of an adult athlete using a stable pull-up station, practicing hollow-body positions, and performing a seated band row as prerequisite work",
+      "timing": ["SCAPULAR PREP", "TUCK HOLDS", "REST 45–60 SEC", "NO GRINDING"],
+      "cardSections": [
+        {"title": "1 · OUTDOOR / RATED BAR", "primary": "Scap pull-ups · 1 × 5–8\nTuck hold · 3 × 6–12 sec", "alternative": "Stable bar rated for body weight and dynamic use"},
+        {"title": "2 · PROGRESSION GATE", "primary": "3 × 12 sec clean\nfor 2 sessions", "alternative": "Then advanced tuck, one-leg extension, or slow rows"},
+        {"title": "3 · INDOOR PREREQUISITES", "primary": "Hollow/dead bug\n2 × 15–25 sec\nPulldown · 2 × 8–12", "alternative": "Band pulldown requires a RATED ANCHOR"},
+        {"title": "4 · NOT EQUIVALENT", "primary": "No-anchor rows + hollow work\nmaintain prerequisites", "alternative": "They are not equivalent front-lever exposure"}
+      ],
+      "rest": "REST 45–60 SEC BETWEEN HOLDS · KEEP EVERY SET TECHNICALLY CLEAN",
+      "progression": "Advance one leverage step only after the 3 × 12-second target is clean for two sessions.",
+      "cardSafety": "Stop if symptoms worsen, radiate, or technique deteriorates. Follow physio guidance and read the full safety notes.",
+      "intro": "Monday provides formal lever practice and Friday is the primary skill morning; Saturday C can add an optional exposure. Actual lever work requires a stable rated bar.",
+      "detailSections": [
+        {"title": "Outdoor or rated-bar option", "items": ["Scapular pull-ups — 1 set of 5–8 repetitions.", "Tuck front-lever hold — 3 sets of 6–12 seconds with 45–60 seconds rest.", "When 3 × 12 seconds is clean for two sessions, use advanced tuck, one-leg extension, or slow tuck-lever rows.", "The pull-up station must be stable and rated for body weight plus added load and dynamic use."]},
+        {"title": "Indoor or travel prerequisite work", "items": ["Without a rated bar: hollow-body hold or dead-bug press — 2 × 15–25 seconds.", "Banded straight-arm pulldown from a rated anchor — 2 × 8–12 repetitions.", "Optional seated band row with deliberate scapular depression — 1 × 10–15 repetitions.", "A stable, correctly rated indoor pull-up station materially improves consistency."]},
+        {"title": "Equivalence and safety", "items": ["No-anchor rows and hollow work maintain prerequisites but are not equivalent front-lever exposure.", "Never use an improvised door, furniture edge, or unstable anchor for high-tension pulling.", "Stop before technique deteriorates; no grinding."]}
+      ]
+    },
+    {
+      "slug": "pistol-squat",
+      "title": "PISTOL SQUAT",
+      "pageTitle": "Pistol Squat Skills",
+      "day": "THURSDAY · WEEKEND NON-BADMINTON MORNING",
+      "duration": "7–10 MIN",
+      "warning": "CHOOSE THE EASIEST VARIATION THAT STAYS CONTROLLED",
+      "heroLabel": "FOOT · KNEE PATH · LEVEL PELVIS",
+      "artwork": "pistol-squat-artwork.png",
+      "alt": "Editorial illustration of an adult athlete performing assisted, unloaded bodyweight, and box-supported pistol-squat variations with stable equipment and no added load",
+      "timing": ["PREP · 1 MIN", "2–3 SETS", "3–5 REPS / SIDE", "CLEAN CONTROL"],
+      "cardSections": [
+        {"title": "1 · PREP", "primary": "Ankle + squat preparation\n1 min", "alternative": "Use a comfortable range"},
+        {"title": "2 · PRACTICE", "primary": "2–3 × 3–5/side", "alternative": "Assisted · counterweighted · or controlled full pistol"},
+        {"title": "3 · REGRESS", "primary": "Use a 3-sec eccentric\nwhen reps vary", "alternative": "Stable support · Controlled knee path · Level pelvis"},
+        {"title": "4 · LOAD GATE", "primary": "2 × 5 clean/side\nfor 2 sessions", "alternative": "Only then add backpack loading"}
+      ],
+      "rest": "STOP BEFORE BALANCE, FOOT PRESSURE, KNEE PATH, OR PELVIS CONTROL DETERIORATES",
+      "progression": "Earn load with repeatable control. Add backpack load only after 2 × 5 clean repetitions per side for two sessions.",
+      "cardSafety": "Stop if symptoms worsen, radiate, or technique deteriorates. Follow physio guidance and read the full safety notes.",
+      "intro": "Practice on Thursday during Full-body B and on the weekend non-badminton morning. Select the easiest variation that preserves a stable foot, controlled knee path, and level pelvis.",
+      "detailSections": [
+        {"title": "Practice sequence", "items": ["Ankle and squat preparation — 1 minute.", "Controlled full pistol, counterweighted pistol, or assisted pistol — 2–3 × 3–5 per side.", "Use a three-second eccentric when full repetitions become inconsistent."]},
+        {"title": "Variation and progression", "items": ["Select the easiest variation that preserves a stable foot, controlled knee path, and level pelvis.", "Use only a verified stable support for assisted or box variations.", "Add backpack loading only after 2 × 5 clean repetitions per side for two sessions.", "Stop before technique deteriorates or symptoms worsen."]}
+      ]
+    },
+    {
+      "slug": "grease-the-groove",
+      "title": "GREASE THE GROOVE",
+      "pageTitle": "Grease-the-Groove Movement Snacks",
+      "day": "2–4 DAYS / WEEK · ONE MOVEMENT / DAY",
+      "duration": "2–4 MINI-SETS",
+      "warning": "KEEP AT LEAST 5 REPS IN RESERVE · NEVER CHASE FATIGUE",
+      "heroLabel": "FREQUENT · FRESH · TECHNICALLY CLEAN",
+      "artwork": "grease-the-groove-artwork.png",
+      "alt": "Editorial illustration of an adult athlete performing an unloaded low-repetition pull-up, wall handstand line hold, and unloaded supported pistol pattern on stable equipment with no added load",
+      "timing": ["ONE PRIMARY MOVE", "SPREAD SETS OUT", "STAY 5+ REPS FRESH", "PROTECT HARD SESSIONS"],
+      "cardSections": [
+        {"title": "1 · DOSING", "primary": "2–4 days/week\n2–4 mini-sets/day", "alternative": "One primary movement per day"},
+        {"title": "2 · STARTING DOSES", "primary": "Pull-up · 2\nPush-up · 5–7", "alternative": "Handstand 15–25 sec · Pull-apart 8–12"},
+        {"title": "3 · LOWER BODY", "primary": "Supported pistol · 1–2/side", "alternative": "No more than twice weekly · Stable support"},
+        {"title": "4 · DO NOT USE", "primary": "Jumps · loaded pull-ups\nAb wheel · fatiguing legs", "alternative": "No same-pattern GTG within roughly 24 hours of hard work"}
+      ],
+      "rest": "MINI-SETS STAY EASY, CRISP, AND SPREAD ACROSS THE DAY",
+      "progression": "GTG is the first training component removed when badminton performance, joints, legs, or back deteriorate.",
+      "cardSafety": "Stop if symptoms worsen, radiate, or technique deteriorates. Follow physio guidance and read the full safety notes.",
+      "intro": "Use grease the groove on 2–4 days/week. Choose one primary movement per day and perform 2–4 mini-sets spread across the day.",
+      "detailSections": [
+        {"title": "Rules", "items": ["Keep at least five repetitions in reserve, or the equivalent margin for holds.", "Do not use a movement within roughly 24 hours before or after hard training of the same pattern.", "Mini-sets should stay fresh and technically clean rather than creating fatigue."]},
+        {"title": "Suggested starting doses", "items": ["Pull-ups — 2 repetitions per mini-set when the bar is available.", "Push-ups — 5–7 repetitions.", "Handstand line hold — 15–25 seconds.", "Band pull-aparts or scapular work — 8–12 repetitions.", "Supported pistol pattern — 1–2 clean repetitions per side, no more than twice weekly, using stable support."]},
+        {"title": "Prohibited and removal rules", "items": ["Do not use jumps, loaded pull-ups, ab-wheel repetitions, or fatiguing lower-body sets for grease the groove.", "Remove GTG first when badminton performance, wrists, elbows, shoulders, legs, or back deteriorate."]}
+      ]
+    }
+  ]
+}
