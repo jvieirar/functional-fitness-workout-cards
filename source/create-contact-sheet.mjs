@@ -6,7 +6,7 @@ import sharp from 'sharp';
 const repo = fileURLToPath(new URL('..', import.meta.url));
 const slugs = ['morning-mobility', 'full-body-a', 'full-body-b', 'full-body-c', 'handstand-v-sit', 'front-lever', 'pistol-squat', 'grease-the-groove'];
 const cellWidth = 400;
-const cellHeight = 500;
+const cellHeight = 600;
 const gap = 24;
 const columns = 2;
 const rows = 4;
@@ -15,7 +15,7 @@ const height = rows * cellHeight + (rows + 1) * gap;
 const composites = [];
 for (const [index, slug] of slugs.entries()) {
   const input = join(repo, 'docs', 'cards', `${slug}-v1.png`);
-  const buffer = await sharp(input).resize(cellWidth, cellHeight, { fit: 'fill' }).png().toBuffer();
+  const buffer = await sharp(input).resize(cellWidth, cellHeight, { fit: 'contain', background: '#f5f0e5' }).png().toBuffer();
   composites.push({ input: buffer, left: gap + (index % columns) * (cellWidth + gap), top: gap + Math.floor(index / columns) * (cellHeight + gap) });
 }
 await mkdir(join(repo, 'docs'), { recursive: true });

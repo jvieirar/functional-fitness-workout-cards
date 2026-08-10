@@ -204,11 +204,11 @@ for (const filename of cardFiles) {
   const path = join(docs, 'cards', filename);
   assert((await stat(path)).size > 20_000, `${filename} is unexpectedly small`);
   const metadata = await sharp(path).metadata();
-  assert(metadata.format === 'png' && metadata.width === 1600 && metadata.height === 2000, `${filename}: expected 1600x2000 PNG, got ${metadata.format} ${metadata.width}x${metadata.height}`);
+  assert(metadata.format === 'png' && metadata.width === 1600 && metadata.height === 2400, `${filename}: expected 1600x2400 PNG, got ${metadata.format} ${metadata.width}x${metadata.height}`);
 }
 const contactSheet = await sharp(join(docs, 'workout-card-index-preview.png')).metadata();
-assert(contactSheet.format === 'png' && contactSheet.width === 872 && contactSheet.height === 2120, `workout-card-index-preview.png: expected 872x2120 PNG, got ${contactSheet.format} ${contactSheet.width}x${contactSheet.height}`);
-console.log('PASS rendered artifacts: 8/8 1600x2000 PNG cards and 872x2120 contact sheet');
+assert(contactSheet.format === 'png' && contactSheet.width === 872 && contactSheet.height === 2520, `workout-card-index-preview.png: expected 872x2520 PNG, got ${contactSheet.format} ${contactSheet.width}x${contactSheet.height}`);
+console.log('PASS rendered artifacts: 8/8 1600x2400 PNG cards and 872x2520 contact sheet');
 
 const cardCss = await readFile(join(repo, 'source', 'card.css'), 'utf8');
 let primaryRuleCount = 0;

@@ -45,3 +45,27 @@ test('fresh-clone setup and generated-file ignores are documented', async () => 
   }
   assert.match(gitignore, /(?:^|\n)node_modules\/(?:\n|$)/);
 });
+
+test('card artwork is a tall central panel and is never cropped', async () => {
+  const [cardCss, generator, renderer, validator] = await Promise.all([
+    readRepoFile('source/card.css'),
+    readRepoFile('source/generate-site.mjs'),
+    readRepoFile('source/render-cards.mjs'),
+    readRepoFile('source/validate-site.mjs')
+  ]);
+
+  const heroRule = cardCss.match(/\.hero\s*\{([^}]*)\}/)?.[1] ?? '';
+  const heroImageRule = cardCss.match(/\.hero img\s*\{([^}]*)\}/)?.[1] ?? '';
+  const heroLabelRule = cardCss.match(/\.hero-label\s*\{([^}]*)\}/)?.[1] ?? '';
+
+  assert.match(cardCss, /html, body, main\s*\{[^}]*height:\s*2400px/, 'card canvas must provide room for full-height artwork');
+  assert.match(cardCss, /grid-template-rows:\s*142px 68px 614px/, 'hero row must be the 614px central panel');
+  assert.match(heroRule, /grid-template-rows:\s*minmax\(0,\s*1fr\) auto/, 'hero must reserve a separate caption row');
+  assert.match(heroImageRule, /object-fit:\s*contain/, 'artwork must use object-fit: contain');
+  assert.doesNotMatch(heroImageRule, /object-fit:\s*cover/, 'artwork must never use object-fit: cover');
+  assert.match(heroLabelRule, /position:\s*static/, 'hero caption must not cover the artwork');
+  assert.match(generator, /height="2400"/, 'workout pages must publish the correct card aspect ratio');
+  assert.match(generator, /-v1\.png\?v=2/, 'workout pages must cache-bust the corrected card artwork');
+  assert.match(renderer, /height:\s*2400/, 'renderer viewport must include the full card');
+  assert.match(validator, /metadata\.height === 2400/, 'validator must reject cropped legacy card dimensions');
+});

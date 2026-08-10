@@ -11,17 +11,17 @@
 }
 
 * { box-sizing: border-box; }
-html, body, main { width: 1600px; height: 2000px; margin: 0; overflow: hidden; }
+html, body, main { width: 1600px; height: 2400px; margin: 0; overflow: hidden; }
 
 #workout-card {
   width: 1600px;
-  height: 2000px;
+  height: 2400px;
   padding: 64px 72px 56px;
   overflow: hidden;
   background: radial-gradient(circle at 92% 8%, rgba(110, 155, 128, 0.24), transparent 26%), var(--cream);
   color: var(--ink);
   display: grid;
-  grid-template-rows: 142px 68px 214px 72px 930px 70px 300px;
+  grid-template-rows: 142px 68px 614px 72px 930px 70px 300px;
   gap: 14px;
   border: 1px solid rgba(16, 39, 45, 0.12);
 }
@@ -41,9 +41,9 @@ html, body, main { width: 1600px; height: 2000px; margin: 0; overflow: hidden; }
 .duration { margin: 0 0 4px; padding: 18px 24px 14px; border-radius: 100px; color: var(--cream); background: var(--navy); font-size: 34px; line-height: 1; font-weight: 850; white-space: nowrap; }
 
 .warning { margin: 0; padding: 0 18px; display: grid; place-items: center; border-radius: 16px; background: var(--amber); color: #1f2b2d; font-size: 30px; line-height: 1.08; font-weight: 900; letter-spacing: 0.035em; text-align: center; }
-.hero { position: relative; overflow: hidden; border-radius: 28px; background: var(--paper); border: 2px solid rgba(16, 39, 45, 0.14); }
-.hero img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
-.hero-label { position: absolute; left: 22px; bottom: 20px; margin: 0; padding: 13px 20px; border-radius: 12px; color: #d8e8dd; background: rgba(16, 39, 45, 0.95); font-size: 28px; font-weight: 750; letter-spacing: 0.065em; }
+.hero { overflow: hidden; display: grid; grid-template-rows: minmax(0, 1fr) auto; border-radius: 28px; background: var(--paper); border: 2px solid rgba(16, 39, 45, 0.14); }
+.hero img { width: 100%; height: 100%; min-height: 0; object-fit: contain; object-position: center; display: block; }
+.hero-label { position: static; margin: 0; padding: 13px 20px; color: #d8e8dd; background: var(--navy); font-size: 28px; font-weight: 750; letter-spacing: 0.065em; text-align: center; }
 
 .timing { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0; padding: 0; }
 .timing li { display: grid; place-items: center; padding: 8px; border: 2px solid var(--green-deep); border-radius: 10px; color: var(--green-deep); font-size: 26px; line-height: 1.05; font-weight: 850; text-align: center; }

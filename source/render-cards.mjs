@@ -28,7 +28,7 @@ let browser;
 try {
   browser = await chromium.launch({ headless: true });
   for (const workout of data.workouts) {
-    const page = await browser.newPage({ viewport: { width: 1600, height: 2000 }, deviceScaleFactor: 1 });
+    const page = await browser.newPage({ viewport: { width: 1600, height: 2400 }, deviceScaleFactor: 1 });
     const errors = [];
     page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
     page.on('pageerror', (error) => errors.push(error.message));

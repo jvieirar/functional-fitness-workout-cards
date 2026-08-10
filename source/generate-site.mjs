@@ -45,7 +45,7 @@ for (const workout of data.workouts) {
       <div class="meta-row" aria-label="Session summary"><span class="meta-chip">${escape(workout.duration)}</span><span class="meta-chip meta-chip--warning">${escape(workout.warning)}</span></div>
     </header>
     <figure class="card-figure">
-      <img src="../cards/${workout.slug}-v1.png" width="1600" height="2000" alt="Workout card for ${escape(workout.pageTitle)}. ${escape(workout.alt)}. Complete equivalent instructions follow below.">
+      <img src="../cards/${workout.slug}-v1.png?v=2" width="1600" height="2400" alt="Workout card for ${escape(workout.pageTitle)}. ${escape(workout.alt)}. Complete equivalent instructions follow below.">
       <figcaption>The illustration is a visual reminder, not authoritative form instruction. Use the complete text below.</figcaption>
     </figure>
     <article id="instructions" class="workout-copy" aria-labelledby="instructions-title">
@@ -62,7 +62,7 @@ for (const workout of data.workouts) {
   await writeFile(join(docs, 'workouts', `${workout.slug}.html`), document({ title: workout.pageTitle, prefix: '../', canonicalUrl: `${productionBase}workouts/${workout.slug}.html`, body }));
 }
 
-const cards = data.workouts.map((workout) => `<li><a href="workouts/${workout.slug}.html"><img src="cards/${workout.slug}-v1.png" width="1600" height="2000" alt="Preview illustration: ${escape(workout.alt)}" loading="lazy"><span class="card-grid__copy"><strong>${escape(workout.pageTitle)}</strong><small>${escape(workout.duration)} · ${escape(workout.day)}</small></span></a></li>`).join('\n');
+const cards = data.workouts.map((workout) => `<li><a href="workouts/${workout.slug}.html"><img src="cards/${workout.slug}-v1.png?v=2" width="1600" height="2400" alt="Preview illustration: ${escape(workout.alt)}" loading="lazy"><span class="card-grid__copy"><strong>${escape(workout.pageTitle)}</strong><small>${escape(workout.duration)} · ${escape(workout.day)}</small></span></a></li>`).join('\n');
 const indexBody = `<main id="main-content" class="shell">
   <header class="page-intro"><p class="eyebrow">Eight stable, reusable sessions</p><h1>Workout card library</h1><p class="lede">A phone-friendly companion to the functional full-body training plan. Open a card for complete instructions, alternatives, progression gates, and safety notes.</p></header>
   <ul class="card-grid" aria-label="Workout cards">${cards}</ul>
