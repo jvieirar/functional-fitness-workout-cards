@@ -11,7 +11,9 @@
     "generate": "node source/generate-site.mjs",
     "render": "node source/render-cards.mjs && node source/create-contact-sheet.mjs",
     "validate": "node source/validate-site.mjs",
-    "test": "node --test"
+    "test": "node --test",
+    "syntax": "for f in source/*.mjs test/*.mjs; do node --check \"$f\" || exit 1; done",
+    "check": "npm run syntax && npm test"
   },
   "dependencies": {
     "playwright": "1.62.1",
